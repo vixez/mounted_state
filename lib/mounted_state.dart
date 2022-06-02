@@ -11,7 +11,6 @@ mixin MountedState<T extends StatefulWidget> on State<T> {
   }
 }
 
-
 /// Overrides [setState] and will always check if [mounted] before calling
 /// the actual [setState].
 mixin MountedStateOverride<T extends StatefulWidget> on State<T> {
@@ -22,4 +21,3 @@ mixin MountedStateOverride<T extends StatefulWidget> on State<T> {
     }
   }
 }
-

@@ -26,19 +26,20 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> with MountedState, MountedStateOverride {
-
-  void _setStateOverride(){
-    setState((){
+class _MyHomePageState extends State<MyHomePage>
+    with MountedState, MountedStateOverride {
+  void _setStateOverride() {
+    setState(() {
       // This will use MountedStateOverride
     });
   }
 
-  void _setState(){
-    setMountedState((){
+  void _setState() {
+    setMountedState(() {
       // This will use MountedState
     });
   }
+
   @override
   Widget build(BuildContext context) {
     return const SizedBox();

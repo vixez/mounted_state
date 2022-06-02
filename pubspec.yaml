@@ -1,5 +1,5 @@
 name: mounted_state
-description: Check if mounted before calling setState.
+description: Easily check if a widget is mounted before calling setState.
 version: 1.0.0
 repository: https://github.com/vixez/mounted_state
 
